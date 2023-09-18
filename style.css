@@ -1,0 +1,108 @@
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    background-color: #025899;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: background 1s ease;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.bubble img
+{
+    content: '';
+    border-radius: 0% 0% 35% 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: contain;
+    height: 120%;
+    z-index: 1;
+}
+
+.div-wrapper img {
+    position: absolute;
+    bottom: -40%;
+    left: 39.1%;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    z-index: 2;
+}
+
+.content {
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+h2 {
+    position: absolute;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    bottom: 15%;
+    left: 37.3%;
+    display: table-cell;
+    clear: both;
+    z-index: 3;
+}
+
+p 
+{
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    bottom: 32%;
+    left: 44%;
+    display: table-cell;
+    clear: both;
+    z-index: 3;
+}
+
+h8
+{
+    font-weight: 700;
+    position: absolute;
+    color: #025899;
+    font-size: 25px;
+    text-align: center;
+    bottom: -48%;
+    left: 48.6%;
+    display: table-cell;
+    z-index: 4;
+}
+
+h9
+{
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    bottom: -60%;
+    left: 41.6%;
+    display: table-cell;
+    z-index: 4;
+}
